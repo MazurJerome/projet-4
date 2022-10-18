@@ -3719,11 +3719,6 @@ fieldset[disabled] .btn {
 	opacity: 0.65;
 }
 
-a.btn.disabled,
-fieldset[disabled] a.btn {
-	pointer-events: fill;
-}
-
 .btn-default {
 	color: #333;
 	background-color: #fff;
@@ -4657,7 +4652,6 @@ tbody.collapse.in {
 [data-toggle="buttons"] > .btn-group > .btn input[type="radio"] {
 	position: absolute;
 	clip: rect(0, 0, 0, 0);
-	pointer-events: none;
 }
 
 .input-group {
