@@ -6,6 +6,9 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
+footer a {
+	font-size: 32px;
+}
 
 a,
 button {
@@ -359,6 +362,12 @@ a:hover {
 	float: right;
 	position: relative;
 	z-index: 2;
+}
+.presentation {
+	display: flex;
+	padding: 0 16%;
+	font-size: 20px;
+	font-weight: bold;
 }
 
 @media (min-width: 768px) {
@@ -823,7 +832,7 @@ h4 {
 }
 
 .bg-presentation {
-	background-image: url("img/image-de-presentation.bmp");
+	background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
