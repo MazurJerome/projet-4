@@ -369,6 +369,25 @@ a:hover {
 	font-size: 20px;
 	font-weight: bold;
 }
+.portFolio .col-sm-12 {
+	width: 50%;
+}
+.portFolioTitre {
+	display: flex;
+	justify-content: center;
+}
+.citation {
+	padding: 0;
+	width: 50%;
+}
+.citation h2 {
+	font-size: 18px;
+	font-weight: 500;
+}
+.citation p {
+	font-size: 18px;
+	color: #888888;
+}
 
 @media (min-width: 768px) {
 	.site-navigation {
