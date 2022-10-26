@@ -376,8 +376,13 @@ a:hover {
 	display: flex;
 	justify-content: center;
 }
+.divCentre {
+	display: flex;
+	justify-content: center;
+}
 .citation {
 	padding: 0;
+	margin: 0;
 	width: 50%;
 }
 .citation h2 {
