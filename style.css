@@ -7,7 +7,10 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 footer a {
-	font-size: 32px;
+	display: flex;
+	flex-direction: column;
+	font-size: 22px;
+	color: white;
 }
 
 a,
@@ -391,7 +394,6 @@ a:hover {
 }
 .citation p {
 	font-size: 18px;
-	color: #888888;
 }
 
 @media (min-width: 768px) {
@@ -757,7 +759,7 @@ h3 {
 }
 
 h1 {
-	color: #333333;
+	color: #df7a43;
 }
 
 h4 {
@@ -895,6 +897,9 @@ h4 {
 }
 
 @media (max-width: 991px) {
+	.navbar-header img {
+		margin-left: 45px;
+	}
 	.container {
 		width: 100%;
 	}
